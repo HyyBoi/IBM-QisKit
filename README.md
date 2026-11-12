@@ -37,7 +37,7 @@ A synthetic city-safety threshold `R(x) ≥ τ` is checked **after** solving. Ev
 "BELOW τ". The threshold is not encoded as a constraint, because a penalty on a quadratic inequality would be
 quartic and therefore not a QUBO.
 
-## Key results (from `results/benchmark_full.json`)
+## Key results 
 
 | setting | P(opt) vs uniform 1/C(n,k) | most-frequent sample optimal | max single-plan prob. |
 |---|---|---|---|
