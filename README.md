@@ -46,12 +46,12 @@ quartic and therefore not a QUBO.
 | n=10, basis start + β0, p=1 (9 runs) | 0.6× | 0% | 0.82 (collapse) |
 
 - **Feasibility and leakage:** every sample was feasible, and leakage out of the k-subspace stayed below 1e−30 in ideal simulation.
-- **Basis start:** the specified start collapses onto single relabelled basis states, so the default is now a Dicke start. The report explains why.
+- **Basis start:** the specified start collapses onto single relabelled basis states, so the default is now a Dicke start.
 - **Speed:** exact enumeration takes under 1 ms.
 - **Greedy:** found the optimum on 3 of 4 instances and missed it on n=12.
 - **Annealing:** fails at small budgets.
 
-The full analysis is in [docs/FloodCut_Report.docx](docs/FloodCut_Report.docx).
+
 
 ## Setup
 
@@ -102,18 +102,8 @@ The page includes:
 - the exact Pareto plot;
 - a circuit panel showing qubits, depth, CX counts, the sample histogram, P(opt) and leakage.
 
-## Repository layout
 
-```
-src/floodcut/   config, scenario (synthetic geometry -> coefficients), objective (R/H/F, QUBO, validation),
-                ising (QUBO->Ising), qaoa (fixed-k circuit, optimize, sample, decode), classical (exact, greedy, SA),
-                pareto, benchmark, results_io (provenance, replay matching), plotting, figures, __main__ (CLI)
-app/            streamlit_app.py
-report/         build_report.py (python-docx; all numbers read from results JSON)
-results/        benchmark_full.json, benchmark_quick.json, quick_run.json, bench_full.log
-docs/           FloodCut_Report.docx, figures/*.png, PITCH.md
-tests/          scenario, objective/QUBO, Ising, QAOA, classical, Pareto, results I/O, end-to-end smoke, app (AppTest)
-```
+
 
 ## Conventions worth knowing
 
@@ -126,16 +116,7 @@ tests/          scenario, objective/QUBO, Ising, QAOA, classical, Pareto, result
 ## What was not tested / limitations
 
 - **Hardware and noise:** no runs on quantum hardware and no noise models. All results are ideal statevector simulation, and transpilation assumes all-to-all connectivity.
-- **Python versions:** only Python 3.14 on Windows was tested. Other versions should work but were not run.
-- **Model scope:** see report §9. In brief: no hydrodynamics, synthetic and uncertain inputs, pairwise-only interactions, a simplified fairness proxy, no safety guarantee, instances small enough to solve exactly, QAOA parameter sensitivity, and expert review required before any real-world use.
+- **Model scope:** In brief: no hydrodynamics, synthetic and uncertain inputs, pairwise-only interactions, a simplified fairness proxy, no safety guarantee, instances small enough to solve exactly, QAOA parameter sensitivity, and expert review required before any real-world use.
 
-## Remaining external submission steps
 
-1. Make sure the judges can open the repository: it is currently **private** at https://github.com/HyyBoi/IBM-QisKit, so either make it public or add them (and teammates) as collaborators.
-2. Submit on the hackathon portal with the repository link and `docs/FloodCut_Report.docx`.
 
-## License and attribution
-
-MIT (see `LICENSE`). Built with Qiskit (Apache-2.0), NumPy, SciPy, Matplotlib, Streamlit and python-docx. The Dicke-state
-preparation follows Bärtschi & Eidenbenz (2019). AI assistance (Claude) was used to write code and documentation.
-All reported numbers come from the saved results produced by this code.
