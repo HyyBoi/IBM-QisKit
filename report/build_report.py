@@ -320,7 +320,8 @@ def build(bench: dict) -> Report:
     R.para("Selecting k hypothetical flood-diversion sites with fixed-Hamming-weight QAOA — "
            "a synthetic, multi-objective decision-support prototype", size=14, color=MUTED, space_after=18)
     R.para("Qiskit Fall Fest 2026 Hackathon submission  •  Domain: Disaster Response", size=11)
-    R.para("Team: [TEAM NAME]   •   Members: [NAMES]   •   Affiliation: [AFFILIATION]", size=11, color=MUTED)
+    R.para("Team lead: Abdul Hannan", size=11, space_after=2)
+    R.para("Team members: Dayyan Abdullah  •  Muhammad Dawood Ali Khan", size=11)
     R.para(f"Report generated from saved results created {prov['created_utc']} (Python {prov['python']}, "
            f"Qiskit {prov['qiskit']}).", size=9, color=MUTED, space_after=30)
     R.note_box("Read this first", [

@@ -3,6 +3,8 @@
 **Selecting k hypothetical flood-diversion sites with fixed-Hamming-weight QAOA in Qiskit, on a synthetic multi-objective scenario.**
 Qiskit Fall Fest 2026 Hackathon · Domain: Disaster Response
 
+**Team:** Abdul Hannan (team lead) · Dayyan Abdullah · Muhammad Dawood Ali Khan
+
 > **Synthetic, educational prototype.** The river, city, villages, districts and all coefficients are fictional and
 > expressed in normalized units. FloodCut contains no real locations, no breach coordinates, no methods for altering
 > infrastructure and no hydrological model. Its scores are a *diversion proxy*, a *synthetic harm index* and a
@@ -129,9 +131,8 @@ tests/          scenario, objective/QUBO, Ising, QAOA, classical, Pareto, result
 
 ## Remaining external submission steps
 
-1. A local git repository is initialized (nothing committed yet). Commit, create the GitHub repository and push.
-2. Fill in the team name, members and affiliation on the report title page (placeholders in `report/build_report.py`), then run `python report/build_report.py` again.
-3. Submit on the hackathon portal with the repository link and `docs/FloodCut_Report.docx`.
+1. Make sure the judges can open the repository: it is currently **private** at https://github.com/HyyBoi/IBM-QisKit, so either make it public or add them (and teammates) as collaborators.
+2. Submit on the hackathon portal with the repository link and `docs/FloodCut_Report.docx`.
 
 ## License and attribution
 
