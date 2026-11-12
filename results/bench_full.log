@@ -1,0 +1,79 @@
+instance seed=0 n=10 k=3: C(n,k)=120
+  QAOA n=10 seed=0 init=dicke p=1 opt-seed=0: <E>=-0.0206 (E*=-0.5457) P(opt)=0.010 [uniform 0.008] most-frequent rank 19 max-prob 0.029 (0.9s)
+  QAOA n=10 seed=0 init=dicke p=1 opt-seed=1: <E>=-0.2228 (E*=-0.5457) P(opt)=0.035 [uniform 0.008] most-frequent rank 3 max-prob 0.065 (0.6s)
+  QAOA n=10 seed=0 init=dicke p=1 opt-seed=2: <E>=-0.0208 (E*=-0.5457) P(opt)=0.011 [uniform 0.008] most-frequent rank 31 max-prob 0.029 (1.5s)
+  QAOA n=10 seed=0 init=dicke p=2 opt-seed=0: <E>=-0.2806 (E*=-0.5457) P(opt)=0.050 [uniform 0.008] most-frequent rank 4 max-prob 0.084 (2.8s)
+  QAOA n=10 seed=0 init=dicke p=2 opt-seed=1: <E>=-0.2961 (E*=-0.5457) P(opt)=0.060 [uniform 0.008] most-frequent rank 4 max-prob 0.084 (2.9s)
+  QAOA n=10 seed=0 init=dicke p=2 opt-seed=2: <E>=-0.2684 (E*=-0.5457) P(opt)=0.052 [uniform 0.008] most-frequent rank 4 max-prob 0.074 (3.5s)
+  QAOA n=10 seed=0 init=basis p=1 opt-seed=0: <E>=-0.2711 (E*=-0.5457) P(opt)=0.000 [uniform 0.008] most-frequent rank 25 max-prob 1.000 (0.8s)
+  QAOA n=10 seed=0 init=basis p=1 opt-seed=1: <E>=-0.0350 (E*=-0.5457) P(opt)=0.000 [uniform 0.008] most-frequent rank 56 max-prob 1.000 (0.2s)
+  QAOA n=10 seed=0 init=basis p=1 opt-seed=2: <E>=-0.2712 (E*=-0.5457) P(opt)=0.000 [uniform 0.008] most-frequent rank 25 max-prob 1.000 (0.7s)
+  QAOA n=10 seed=0 init=basis p=2 opt-seed=0: <E>=-0.2710 (E*=-0.5457) P(opt)=0.000 [uniform 0.008] most-frequent rank 25 max-prob 0.995 (2.3s)
+  QAOA n=10 seed=0 init=basis p=2 opt-seed=1: <E>=-0.1801 (E*=-0.5457) P(opt)=0.016 [uniform 0.008] most-frequent rank 4 max-prob 0.071 (3.0s)
+  QAOA n=10 seed=0 init=basis p=2 opt-seed=2: <E>=-0.0782 (E*=-0.5457) P(opt)=0.000 [uniform 0.008] most-frequent rank 49 max-prob 1.000 (0.5s)
+instance seed=1 n=10 k=3: C(n,k)=120
+  QAOA n=10 seed=1 init=dicke p=1 opt-seed=0: <E>=-0.0977 (E*=-0.4434) P(opt)=0.037 [uniform 0.008] most-frequent rank 8 max-prob 0.045 (0.7s)
+  QAOA n=10 seed=1 init=dicke p=1 opt-seed=1: <E>=-0.0977 (E*=-0.4434) P(opt)=0.037 [uniform 0.008] most-frequent rank 8 max-prob 0.045 (0.7s)
+  QAOA n=10 seed=1 init=dicke p=1 opt-seed=2: <E>=-0.0977 (E*=-0.4434) P(opt)=0.037 [uniform 0.008] most-frequent rank 8 max-prob 0.045 (0.6s)
+  QAOA n=10 seed=1 init=dicke p=2 opt-seed=0: <E>=-0.1654 (E*=-0.4434) P(opt)=0.028 [uniform 0.008] most-frequent rank 6 max-prob 0.076 (2.1s)
+  QAOA n=10 seed=1 init=dicke p=2 opt-seed=1: <E>=-0.1680 (E*=-0.4434) P(opt)=0.031 [uniform 0.008] most-frequent rank 6 max-prob 0.080 (2.2s)
+  QAOA n=10 seed=1 init=dicke p=2 opt-seed=2: <E>=-0.0248 (E*=-0.4434) P(opt)=0.007 [uniform 0.008] most-frequent rank 62 max-prob 0.046 (2.4s)
+  QAOA n=10 seed=1 init=basis p=1 opt-seed=0: <E>=-0.2628 (E*=-0.4434) P(opt)=0.000 [uniform 0.008] most-frequent rank 15 max-prob 1.000 (0.2s)
+  QAOA n=10 seed=1 init=basis p=1 opt-seed=1: <E>=-0.2628 (E*=-0.4434) P(opt)=0.000 [uniform 0.008] most-frequent rank 15 max-prob 1.000 (0.3s)
+  QAOA n=10 seed=1 init=basis p=1 opt-seed=2: <E>=-0.2245 (E*=-0.4434) P(opt)=0.000 [uniform 0.008] most-frequent rank 21 max-prob 1.000 (0.7s)
+  QAOA n=10 seed=1 init=basis p=2 opt-seed=0: <E>=-0.2628 (E*=-0.4434) P(opt)=0.000 [uniform 0.008] most-frequent rank 15 max-prob 1.000 (2.9s)
+  QAOA n=10 seed=1 init=basis p=2 opt-seed=1: <E>=-0.2231 (E*=-0.4434) P(opt)=0.000 [uniform 0.008] most-frequent rank 22 max-prob 1.000 (1.2s)
+  QAOA n=10 seed=1 init=basis p=2 opt-seed=2: <E>=-0.2627 (E*=-0.4434) P(opt)=0.000 [uniform 0.008] most-frequent rank 15 max-prob 1.000 (2.4s)
+instance seed=2 n=10 k=3: C(n,k)=120
+  QAOA n=10 seed=2 init=dicke p=1 opt-seed=0: <E>=-0.0101 (E*=-0.4709) P(opt)=0.004 [uniform 0.008] most-frequent rank 83 max-prob 0.025 (0.7s)
+  QAOA n=10 seed=2 init=dicke p=1 opt-seed=1: <E>=-0.1380 (E*=-0.4709) P(opt)=0.063 [uniform 0.008] most-frequent rank 1 max-prob 0.063 (0.7s)
+  QAOA n=10 seed=2 init=dicke p=1 opt-seed=2: <E>=-0.0030 (E*=-0.4709) P(opt)=0.002 [uniform 0.008] most-frequent rank 10 max-prob 0.025 (0.7s)
+  QAOA n=10 seed=2 init=dicke p=2 opt-seed=0: <E>=-0.1751 (E*=-0.4709) P(opt)=0.064 [uniform 0.008] most-frequent rank 6 max-prob 0.072 (2.1s)
+  QAOA n=10 seed=2 init=dicke p=2 opt-seed=1: <E>=-0.1760 (E*=-0.4709) P(opt)=0.074 [uniform 0.008] most-frequent rank 1 max-prob 0.074 (2.1s)
+  QAOA n=10 seed=2 init=dicke p=2 opt-seed=2: <E>=-0.1644 (E*=-0.4709) P(opt)=0.072 [uniform 0.008] most-frequent rank 1 max-prob 0.072 (2.0s)
+  QAOA n=10 seed=2 init=basis p=1 opt-seed=0: <E>=-0.1040 (E*=-0.4709) P(opt)=0.016 [uniform 0.008] most-frequent rank 46 max-prob 0.432 (0.8s)
+  QAOA n=10 seed=2 init=basis p=1 opt-seed=1: <E>=-0.1018 (E*=-0.4709) P(opt)=0.013 [uniform 0.008] most-frequent rank 46 max-prob 0.498 (0.9s)
+  QAOA n=10 seed=2 init=basis p=1 opt-seed=2: <E>=-0.1038 (E*=-0.4709) P(opt)=0.016 [uniform 0.008] most-frequent rank 46 max-prob 0.437 (0.7s)
+  QAOA n=10 seed=2 init=basis p=2 opt-seed=0: <E>=-0.0052 (E*=-0.4709) P(opt)=0.000 [uniform 0.008] most-frequent rank 58 max-prob 1.000 (2.6s)
+  QAOA n=10 seed=2 init=basis p=2 opt-seed=1: <E>=-0.1410 (E*=-0.4709) P(opt)=0.021 [uniform 0.008] most-frequent rank 9 max-prob 0.242 (2.3s)
+  QAOA n=10 seed=2 init=basis p=2 opt-seed=2: <E>=-0.1445 (E*=-0.4709) P(opt)=0.035 [uniform 0.008] most-frequent rank 9 max-prob 0.304 (2.5s)
+instance seed=1 n=12 k=3: C(n,k)=220
+  QAOA n=12 seed=1 init=dicke p=1 opt-seed=0: <E>=-0.1292 (E*=-0.8525) P(opt)=0.007 [uniform 0.005] most-frequent rank 117 max-prob 0.021 (1.1s)
+  QAOA n=12 seed=1 init=dicke p=1 opt-seed=1: <E>=-0.4033 (E*=-0.8525) P(opt)=0.046 [uniform 0.005] most-frequent rank 1 max-prob 0.046 (1.6s)
+  QAOA n=12 seed=1 init=dicke p=1 opt-seed=2: <E>=-0.1278 (E*=-0.8525) P(opt)=0.008 [uniform 0.005] most-frequent rank 117 max-prob 0.018 (1.8s)
+  QAOA n=12 seed=1 init=dicke p=2 opt-seed=0: <E>=-0.4610 (E*=-0.8525) P(opt)=0.078 [uniform 0.005] most-frequent rank 1 max-prob 0.078 (4.1s)
+  QAOA n=12 seed=1 init=dicke p=2 opt-seed=1: <E>=-0.4619 (E*=-0.8525) P(opt)=0.076 [uniform 0.005] most-frequent rank 1 max-prob 0.076 (3.8s)
+  QAOA n=12 seed=1 init=dicke p=2 opt-seed=2: <E>=-0.4663 (E*=-0.8525) P(opt)=0.082 [uniform 0.005] most-frequent rank 1 max-prob 0.082 (5.6s)
+  QAOA n=12 seed=1 init=basis p=1 opt-seed=0: <E>=-0.3967 (E*=-0.8525) P(opt)=0.001 [uniform 0.005] most-frequent rank 35 max-prob 0.998 (1.3s)
+  QAOA n=12 seed=1 init=basis p=1 opt-seed=1: <E>=-0.3945 (E*=-0.8525) P(opt)=0.000 [uniform 0.005] most-frequent rank 36 max-prob 1.000 (0.4s)
+  QAOA n=12 seed=1 init=basis p=1 opt-seed=2: <E>=-0.3967 (E*=-0.8525) P(opt)=0.001 [uniform 0.005] most-frequent rank 35 max-prob 0.998 (1.2s)
+  QAOA n=12 seed=1 init=basis p=2 opt-seed=0: <E>=-0.3945 (E*=-0.8525) P(opt)=0.000 [uniform 0.005] most-frequent rank 36 max-prob 1.000 (4.2s)
+  QAOA n=12 seed=1 init=basis p=2 opt-seed=1: <E>=-0.3998 (E*=-0.8525) P(opt)=0.000 [uniform 0.005] most-frequent rank 60 max-prob 0.060 (4.0s)
+  QAOA n=12 seed=1 init=basis p=2 opt-seed=2: <E>=-0.3967 (E*=-0.8525) P(opt)=0.000 [uniform 0.005] most-frequent rank 35 max-prob 1.000 (1.2s)
+weight sweep on default scenario (QAOA dicke p=2 seed 0)
+  sweep w={'w_H': 1.0, 'w_F': 0.5, 'w_R': 1.0}: QAOA {S2, S5, S9} rank 6 | exact {S1, S3, S9}
+  sweep w={'w_H': 0.0, 'w_F': 0.0, 'w_R': 1.0}: QAOA {S2, S6, S9} rank 1 | exact {S2, S6, S9}
+  sweep w={'w_H': 1.0, 'w_F': 0.0, 'w_R': 1.0}: QAOA {S2, S5, S9} rank 6 | exact {S1, S3, S9}
+  sweep w={'w_H': 2.0, 'w_F': 0.5, 'w_R': 1.0}: QAOA {S1, S3, S8} rank 2 | exact {S1, S3, S5}
+  sweep w={'w_H': 1.0, 'w_F': 2.0, 'w_R': 1.0}: QAOA {S2, S5, S9} rank 16 | exact {S1, S3, S8}
+  sweep w={'w_H': 1.0, 'w_F': 0.5, 'w_R': 0.25}: QAOA {S3, S5, S9} rank 32 | exact {S1, S3, S5}
+
+completed 48 QAOA runs, 40 SA runs in 97.7s
+  n=10 init=basis p=1: P(opt) mean 0.005 (x0.6 uniform), most-frequent optimal in 0% of 9 runs, max-prob mean 0.819
+  n=10 init=basis p=2: P(opt) mean 0.008 (x1.0 uniform), most-frequent optimal in 0% of 9 runs, max-prob mean 0.735
+  n=10 init=dicke p=1: P(opt) mean 0.026 (x3.1 uniform), most-frequent optimal in 11% of 9 runs, max-prob mean 0.041
+  n=10 init=dicke p=2: P(opt) mean 0.049 (x5.8 uniform), most-frequent optimal in 22% of 9 runs, max-prob mean 0.073
+  n=12 init=basis p=1: P(opt) mean 0.000 (x0.1 uniform), most-frequent optimal in 0% of 3 runs, max-prob mean 0.999
+  n=12 init=basis p=2: P(opt) mean 0.000 (x0.0 uniform), most-frequent optimal in 0% of 3 runs, max-prob mean 0.687
+  n=12 init=dicke p=1: P(opt) mean 0.020 (x4.4 uniform), most-frequent optimal in 33% of 3 runs, max-prob mean 0.028
+  n=12 init=dicke p=2: P(opt) mean 0.079 (x17.3 uniform), most-frequent optimal in 100% of 3 runs, max-prob mean 0.079
+saved C:\AHM\Academics\QisKit\results\benchmark_full.json
+exit 0
+wrote C:\AHM\Academics\QisKit\docs\figures\architecture.png
+wrote C:\AHM\Academics\QisKit\docs\figures\map_scenario.png
+wrote C:\AHM\Academics\QisKit\docs\figures\method_maps.png
+wrote C:\AHM\Academics\QisKit\docs\figures\burdens.png
+wrote C:\AHM\Academics\QisKit\docs\figures\pareto.png
+wrote C:\AHM\Academics\QisKit\docs\figures\qaoa_counts.png
+wrote C:\AHM\Academics\QisKit\docs\figures\convergence.png
+wrote C:\AHM\Academics\QisKit\docs\figures\p_opt_summary.png
